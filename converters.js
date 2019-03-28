@@ -58,8 +58,6 @@ export function positionToValue(
   valuesArray: Array<number>,
   sliderLength: number,
 ): number {
-  var arrLength;
-  var index;
 
   if (position < 0 || sliderLength < position) {
     return -1;
